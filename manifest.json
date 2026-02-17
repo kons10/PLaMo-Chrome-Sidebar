@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Plamo Translate Sidebar (CSP Fix)",
+  "version": "1.0.1",
+  "permissions": ["sidePanel", "declarativeNetRequest"],
+  "host_permissions": ["https://app.translate.preferredai.jp/*"],
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}
