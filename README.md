@@ -2,7 +2,6 @@
 
 Chromeのサイドパネルで **PLaMo (Preferred Language Model)** による翻訳をサクッと利用するための拡張機能です。
 
-![Social Preview](./PLaMo-Chrome-Sidebar.png)
 
 ## 🌟 特徴
 
@@ -40,7 +39,6 @@ Developed by **kons10** (汐)
 
 An extension that allows you to quickly use **PLaMo (Preferred Language Model)** for translation through Chrome's side panel.
 
-![Social Preview](./PLaMo-Chrome-Sidebar.png)
 
 ## 🌟 Key Features
 
